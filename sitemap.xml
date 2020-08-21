@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://jungh.org/post/</loc>
+    <lastmod>2020-08-07T22:39:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jungh.org/categories/</loc>
+    <lastmod>2020-08-07T22:39:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jungh.org/</loc>
+    <lastmod>2020-08-07T22:39:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jungh.org/categories/open-source/</loc>
+    <lastmod>2020-08-07T22:39:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jungh.org/post/wt_context_menu/</loc>
+    <lastmod>2020-08-07T22:39:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jungh.org/tags/</loc>
+    <lastmod>2020-08-07T22:39:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jungh.org/categories/windows/</loc>
+    <lastmod>2020-08-07T22:39:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jungh.org/tags/windows-terminal/</loc>
+    <lastmod>2020-08-07T22:39:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jungh.org/categories/announcement/</loc>
+    <lastmod>2020-08-01T13:58:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jungh.org/tags/general/</loc>
+    <lastmod>2020-08-01T13:58:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jungh.org/categories/general/</loc>
+    <lastmod>2020-08-01T13:58:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jungh.org/post/hello_world/</loc>
+    <lastmod>2020-08-01T13:58:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jungh.org/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jungh.org/impressum/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jungh.org/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jungh.org/privacy-policy/</loc>
+  </url>
+  
+</urlset>
