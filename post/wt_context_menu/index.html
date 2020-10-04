@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="Windows Terminal context menu right click open here">
   <meta name="author" content="Hauke Jung">
-  <meta name="generator" content="Hugo 0.74.2" />
+  <meta name="generator" content="Hugo 0.62.2" />
 
   <!-- plugins -->
   
@@ -49,7 +49,7 @@
     
     <nav class="navbar navbar-expand-lg navbar-white">
       <a class="navbar-brand" href="/">
-        <img class="img-fluid" width="150px" src="https://haukejung.de/images/jungh_logo.png" alt="hauju"></a>
+        <img class="img-fluid" width="150px" src="https://haukejung.de/images/jungh_logo.png" alt="Hauke Jung"></a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
         <i class="ti-menu"></i>
       </button>
@@ -83,7 +83,7 @@
             </a>
             <div class="dropdown-menu">
               
-              <a class="dropdown-item" href="http://iota-no.de:8081/dashboard">IOTA Node</a>
+              <a class="dropdown-item" href="http://pollen.iota-no.de:8081/dashboard">IOTA Node</a>
               
             </div>
           </li>
@@ -147,11 +147,11 @@
 <p>Create a wt.reg file with the following content.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-reg" data-lang="reg">Windows Registry Editor Version 5.00
 
-<span style="color:#66d9ef">[</span>HKEY_CLASSES_ROOT<span style="color:#66d9ef">\Directory\Background\shell\wt]</span>
+<span style="color:#66d9ef">[</span><span style="color:#f92672"></span>HKEY_CLASSES_ROOT<span style="color:#66d9ef">\Directory\Background\shell\wt]</span>
 <span style="color:#a6e22e">@</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Open Windows terminal here&#34;</span>
 <span style="color:#a6e22e">&#34;Icon&#34;</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;%USERPROFILE%\\AppData\\Local\\wt\\terminal.ico&#34;</span>
 
-<span style="color:#66d9ef">[</span>HKEY_CLASSES_ROOT<span style="color:#66d9ef">\Directory\Background\shell\wt\command]</span>
+<span style="color:#66d9ef">[</span><span style="color:#f92672"></span>HKEY_CLASSES_ROOT<span style="color:#66d9ef">\Directory\Background\shell\wt\command]</span>
 <span style="color:#a6e22e">@</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;wt.exe -d .&#34;</span>
 </code></pre></div></li>
 <li>
@@ -190,7 +190,7 @@
     <div class="row justify-content-between">
       <div class="col-md-3 mb-4">
         <a class="mb-4 d-block" href="/"><img class="img-fluid" width="150px"
-            src="https://haukejung.de/images/jungh_logo.png" alt="hauju"></a>
+            src="https://haukejung.de/images/jungh_logo.png" alt="Hauke Jung"></a>
         <p>Welcome to my developer playground and knowledge base. Feel free to look around and you will hopefully learn something new.</p>
       </div>
       <div class="col-lg-2 col-md-3 col-6 mb-4">
