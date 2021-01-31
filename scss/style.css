@@ -270,7 +270,6 @@ a:hover {
       .navbar .dropdown-menu.show {
         visibility: visible;
         display: block; } }
-
 .navbar .dropdown-item {
   position: relative;
   color: #1c1d1f;

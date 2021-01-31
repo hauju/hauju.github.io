@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="Learn how to open Windows Terminal with right click context menu.">
   <meta name="author" content="Hauke Jung">
-  <meta name="generator" content="Hugo 0.62.2" />
+  <meta name="generator" content="Hugo 0.74.2" />
 
   <!-- plugins -->
   
@@ -83,7 +83,7 @@
             </a>
             <div class="dropdown-menu">
               
-              <a class="dropdown-item" href="http://pollen.iota-no.de:8081/dashboard">IOTA Node</a>
+              <a class="dropdown-item" href="http://pollen.iota-no.de:8091/dashboard">IOTA Node</a>
               
             </div>
           </li>
@@ -147,11 +147,11 @@
 <p>Create a wt.reg file with the following content.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-reg" data-lang="reg">Windows Registry Editor Version 5.00
 
-<span style="color:#66d9ef">[</span><span style="color:#f92672"></span>HKEY_CLASSES_ROOT<span style="color:#66d9ef">\Directory\Background\shell\wt]</span>
+<span style="color:#66d9ef">[</span>HKEY_CLASSES_ROOT<span style="color:#66d9ef">\Directory\Background\shell\wt]</span>
 <span style="color:#a6e22e">@</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Open Windows terminal here&#34;</span>
 <span style="color:#a6e22e">&#34;Icon&#34;</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;%USERPROFILE%\\AppData\\Local\\wt\\terminal.ico&#34;</span>
 
-<span style="color:#66d9ef">[</span><span style="color:#f92672"></span>HKEY_CLASSES_ROOT<span style="color:#66d9ef">\Directory\Background\shell\wt\command]</span>
+<span style="color:#66d9ef">[</span>HKEY_CLASSES_ROOT<span style="color:#66d9ef">\Directory\Background\shell\wt\command]</span>
 <span style="color:#a6e22e">@</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;wt.exe -d .&#34;</span>
 </code></pre></div></li>
 <li>
